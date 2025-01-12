@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`overflow-hidden bg-yellow-300 ${alpino.variable} antialiased`}
+        className={`overflow-x-hidden bg-yellow-300 ${alpino.variable} antialiased`}
       >
         {children}
       </body>
