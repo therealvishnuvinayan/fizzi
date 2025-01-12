@@ -8,6 +8,7 @@ import { TextSplitter } from "@/components/TextSplitter";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import ViewCanvas from "@/components/ViewCanvas";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
@@ -33,7 +34,7 @@ const Hero = () => {
         start: "top top",
         end: "bottom bottom",
         scrub: 1.5,
-        markers: true,
+        // markers: true,
       },
     });
 
@@ -110,6 +111,8 @@ const Hero = () => {
           <div>BETTER</div>
           <div>HEALTH</div>
         </div>
+
+        <ViewCanvas />
       </div>
     </Bounded>
   );
