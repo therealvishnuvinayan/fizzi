@@ -80,7 +80,6 @@ const Hero = () => {
             </div>
             <Button
               className="hero-button mt-12"
-              buttonLink=""
               buttonText="SHOP NOW"
             />
           </div>

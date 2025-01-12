@@ -4,10 +4,10 @@ import React from "react";
 type Props = {
   buttonText: string;
   className: string;
-  buttonLink: string;
+  // buttonLink: string;
 };
 
-const Button = ({ buttonLink, className, buttonText }: Props) => {
+const Button = ({className, buttonText }: Props) => {
   return (
     <div
       className={clsx(
